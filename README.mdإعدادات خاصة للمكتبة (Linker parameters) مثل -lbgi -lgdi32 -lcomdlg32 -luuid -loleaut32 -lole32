@@ -1,0 +1,38 @@
+📝 وصف المشروع (بالعربية)
+مشروع محاكاة مشهد رسومي متحرك بلغة C
+هذا المشروع عبارة عن تطبيق رسومي تم تطويره باستخدام لغة C ومكتبة graphics.h. يقوم الكود بمحاكاة مشهد حيوي يتضمن عدة عناصر متحركة وتفاعلية.
+
+الميزات التقنية في الكود:
+
+تحريك العناصر (Animation): تحريك طائرة وسيرة بشكل انسيابي عبر الشاشة.
+
+إدارة الخلفية (Background Management): استخدام دالة getimage و putimage لحفظ الخلفية واستعادتها، مما يمنع وميض الشاشة (Flickering) أثناء الحركة.
+
+تعدد الطبقات (Layering): رسم البيوت فوق العناصر المتحركة لضمان واقعية المشهد (مثل اختفاء الطائرة خلف المباني).
+
+نظام حوار (Dialogue System): محاكاة محادثة نصية بين شخصيتين مرسومتين يدوياً بالأكواد البرمجية.
+
+الرسم الهندسي: بناء المشهد بالكامل (بيوت، شمس، طريق، سيارة، طائرة) باستخدام الأشكال الهندسية الأساسية.
+
+📝 Project Description (English)
+Animated Graphical Scene Simulation in C
+A graphical application developed using C programming language and the graphics.h library. The project simulates a dynamic environment with various animated and interactive components.
+
+Key Technical Features:
+
+Object Animation: Smooth animation of an airplane and a car across the screen.
+
+Efficient Rendering: Utilizing getimage() and putimage() for background buffering to ensure flicker-free transitions.
+
+Layering Logic: Implemented smart layering where houses are rendered over moving objects to create a 3D depth effect.
+
+Interactive Dialogue: A built-in messaging system simulating a conversation between two characters.
+
+Pure Geometric Art: All visual elements (Houses, Sun, Road, Vehicles) are drawn manually using coordinate-based geometric functions.
+
+
+
+إعدادات خاصة للمكتبة (Linker parameters) مثل -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+
+
+
